@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e8665133aa9561cea8ec4956eb601140 {
+                #map_bbdbcbbbac250f7f3c5beca8ffed1af3 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -41,14 +41,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_e8665133aa9561cea8ec4956eb601140" ></div>
+            <div class="folium-map" id="map_bbdbcbbbac250f7f3c5beca8ffed1af3" ></div>
         
 </body>
 <script>
     
     
-            var map_e8665133aa9561cea8ec4956eb601140 = L.map(
-                "map_e8665133aa9561cea8ec4956eb601140",
+            var map_bbdbcbbbac250f7f3c5beca8ffed1af3 = L.map(
+                "map_bbdbcbbbac250f7f3c5beca8ffed1af3",
                 {
                     center: [20.0, 0.0],
                     crs: L.CRS.EPSG3857,
@@ -62,236 +62,266 @@
 
         
     
-            var tile_layer_99c3bbc88f13e540a0269b247a6f2fd5 = L.tileLayer(
+            var tile_layer_263f5c82b62cd5b546184d9fb111a7d2 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e8665133aa9561cea8ec4956eb601140);
+            ).addTo(map_bbdbcbbbac250f7f3c5beca8ffed1af3);
         
     
-            var marker_cluster_07769073b12095a71ab0911c2ae54345 = L.markerClusterGroup(
+            var marker_cluster_79d55958c4f9584cb673cb06a219d484 = L.markerClusterGroup(
                 {}
             );
-            map_e8665133aa9561cea8ec4956eb601140.addLayer(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            map_bbdbcbbbac250f7f3c5beca8ffed1af3.addLayer(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var marker_59bdc2b588a832a9349d96281e03459b = L.marker(
+            var marker_4e22ef287e4b194cdf947414f2a5b615 = L.marker(
                 [32.5, -145.0],
                 {}
-            ).addTo(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            ).addTo(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var icon_d1c95c0b108da255062834d06af31f22 = L.AwesomeMarkers.icon(
+            var icon_199798efdbcc146ec8ca9143fccaf8f8 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_59bdc2b588a832a9349d96281e03459b.setIcon(icon_d1c95c0b108da255062834d06af31f22);
+            marker_4e22ef287e4b194cdf947414f2a5b615.setIcon(icon_199798efdbcc146ec8ca9143fccaf8f8);
         
     
-            marker_59bdc2b588a832a9349d96281e03459b.bindTooltip(
-                `<div>
-                     Great Pacific Garbage Patch<br>Volumen: ~80.000 t Plastik
-Status: Reinigung läuft
-Besitz: international
-                 </div>`,
-                {"permanent": true, "sticky": true}
-            );
+        var popup_47210763284f80f62f6279532b46feac = L.popup({"maxWidth": 300});
+
+        
+            var html_9d0c8a95479f91c63e4198fb44570330 = $(`<div id="html_9d0c8a95479f91c63e4198fb44570330" style="width: 100.0%; height: 100.0%;"><b>Great Pacific Garbage Patch</b><br>Volumen: ~80.000 t Plastik Status: Reinigung läuft Besitz: international</div>`)[0];
+            popup_47210763284f80f62f6279532b46feac.setContent(html_9d0c8a95479f91c63e4198fb44570330);
+        
+
+        marker_4e22ef287e4b194cdf947414f2a5b615.bindPopup(popup_47210763284f80f62f6279532b46feac)
+        ;
+
         
     
-            var marker_c23b202e1fe73afe1d0487e248dd82b0 = L.marker(
+    
+            var marker_896c2ea362ed19bef328bce64bbd4b07 = L.marker(
                 [-6.2359, 106.9896],
                 {}
-            ).addTo(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            ).addTo(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var icon_c3ecf8a49475d92a0ba675328925901c = L.AwesomeMarkers.icon(
+            var icon_49efbab86a93aedf685da511a01905d5 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_c23b202e1fe73afe1d0487e248dd82b0.setIcon(icon_c3ecf8a49475d92a0ba675328925901c);
+            marker_896c2ea362ed19bef328bce64bbd4b07.setIcon(icon_49efbab86a93aedf685da511a01905d5);
         
     
-            marker_c23b202e1fe73afe1d0487e248dd82b0.bindTooltip(
-                `<div>
-                     Bantar Gebang (Indonesien)<br>Volumen: ~6.000 t/Tag
-Status: Verbesserung des Managements
-Besitz: lokal
-                 </div>`,
-                {"permanent": true, "sticky": true}
-            );
+        var popup_447b7c618f85ffc85baf01059266b827 = L.popup({"maxWidth": 300});
+
+        
+            var html_06118236bdf25f424fc585560b7e4c36 = $(`<div id="html_06118236bdf25f424fc585560b7e4c36" style="width: 100.0%; height: 100.0%;"><b>Bantar Gebang (Indonesien)</b><br>Volumen: ~6.000 t/Tag Status: Verbesserung des Managements Besitz: lokal</div>`)[0];
+            popup_447b7c618f85ffc85baf01059266b827.setContent(html_06118236bdf25f424fc585560b7e4c36);
+        
+
+        marker_896c2ea362ed19bef328bce64bbd4b07.bindPopup(popup_447b7c618f85ffc85baf01059266b827)
+        ;
+
         
     
-            var marker_5317b99c0a9e08e6332bcfb8bb8d6344 = L.marker(
+    
+            var marker_a8ad651fe55d93fb233a78d716095c49 = L.marker(
                 [19.0626, 72.9094],
                 {}
-            ).addTo(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            ).addTo(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var icon_ff79f00124003d7026dc000711633521 = L.AwesomeMarkers.icon(
+            var icon_121114a7b959c7c924f8b95f94214a3c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_5317b99c0a9e08e6332bcfb8bb8d6344.setIcon(icon_ff79f00124003d7026dc000711633521);
+            marker_a8ad651fe55d93fb233a78d716095c49.setIcon(icon_121114a7b959c7c924f8b95f94214a3c);
         
     
-            marker_5317b99c0a9e08e6332bcfb8bb8d6344.bindTooltip(
-                `<div>
-                     Deonar (Indien)<br>Volumen: ~5.500 t/Tag
-Status: Schließung geplant
-Besitz: Stadt Mumbai
-                 </div>`,
-                {"permanent": true, "sticky": true}
-            );
+        var popup_59aa05c9dde24af28ebae7852fa96832 = L.popup({"maxWidth": 300});
+
+        
+            var html_bf204c9bdda30a3b2e081560629a35d9 = $(`<div id="html_bf204c9bdda30a3b2e081560629a35d9" style="width: 100.0%; height: 100.0%;"><b>Deonar (Indien)</b><br>Volumen: ~5.500 t/Tag Status: Schließung geplant Besitz: Stadt Mumbai</div>`)[0];
+            popup_59aa05c9dde24af28ebae7852fa96832.setContent(html_bf204c9bdda30a3b2e081560629a35d9);
+        
+
+        marker_a8ad651fe55d93fb233a78d716095c49.bindPopup(popup_59aa05c9dde24af28ebae7852fa96832)
+        ;
+
         
     
-            var marker_7f7baea835eac6b6b58ec79bba2c8fd6 = L.marker(
+    
+            var marker_d587f18ee11fbf224dec50cb8c627f1f = L.marker(
                 [36.4253, -114.999],
                 {}
-            ).addTo(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            ).addTo(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var icon_abe73856a4e2751a8763660ea726c18f = L.AwesomeMarkers.icon(
+            var icon_9a4a3ba7471a63c1a810fae5f313401a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_7f7baea835eac6b6b58ec79bba2c8fd6.setIcon(icon_abe73856a4e2751a8763660ea726c18f);
+            marker_d587f18ee11fbf224dec50cb8c627f1f.setIcon(icon_9a4a3ba7471a63c1a810fae5f313401a);
         
     
-            marker_7f7baea835eac6b6b58ec79bba2c8fd6.bindTooltip(
-                `<div>
-                     Apex Landfill (USA)<br>Volumen: ~9.000 t/Tag
-Status: Optimierung läuft
-Besitz: Republic Services
-                 </div>`,
-                {"permanent": true, "sticky": true}
-            );
+        var popup_400807d9dbaea51f987851f09c68aeda = L.popup({"maxWidth": 300});
+
+        
+            var html_775aeb7821bdf0aadbe94d400833870d = $(`<div id="html_775aeb7821bdf0aadbe94d400833870d" style="width: 100.0%; height: 100.0%;"><b>Apex Landfill (USA)</b><br>Volumen: ~9.000 t/Tag Status: Optimierung läuft Besitz: Republic Services</div>`)[0];
+            popup_400807d9dbaea51f987851f09c68aeda.setContent(html_775aeb7821bdf0aadbe94d400833870d);
+        
+
+        marker_d587f18ee11fbf224dec50cb8c627f1f.bindPopup(popup_400807d9dbaea51f987851f09c68aeda)
+        ;
+
         
     
-            var marker_57e24161a530972f77de755798f1dc35 = L.marker(
+    
+            var marker_2f1e702810d101c974f6f9910f53d7cf = L.marker(
                 [30.8519, 121.9534],
                 {}
-            ).addTo(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            ).addTo(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var icon_32e6fe0f9c38fa3a02ba8d631ea5e65b = L.AwesomeMarkers.icon(
+            var icon_f1485ee81d643f651a13e1c3c14bb7ba = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_57e24161a530972f77de755798f1dc35.setIcon(icon_32e6fe0f9c38fa3a02ba8d631ea5e65b);
+            marker_2f1e702810d101c974f6f9910f53d7cf.setIcon(icon_f1485ee81d643f651a13e1c3c14bb7ba);
         
     
-            marker_57e24161a530972f77de755798f1dc35.bindTooltip(
-                `<div>
-                     Laogang (China)<br>Volumen: ~8.000 t/Tag
-Status: Schließung geplant
-Besitz: Stadt Shanghai
-                 </div>`,
-                {"permanent": true, "sticky": true}
-            );
+        var popup_ca870cc43fe87d0a5e5e43b978d5b0f3 = L.popup({"maxWidth": 300});
+
+        
+            var html_43050da34c3719969990ae538e3c23d8 = $(`<div id="html_43050da34c3719969990ae538e3c23d8" style="width: 100.0%; height: 100.0%;"><b>Laogang (China)</b><br>Volumen: ~8.000 t/Tag Status: Schließung geplant Besitz: Stadt Shanghai</div>`)[0];
+            popup_ca870cc43fe87d0a5e5e43b978d5b0f3.setContent(html_43050da34c3719969990ae538e3c23d8);
+        
+
+        marker_2f1e702810d101c974f6f9910f53d7cf.bindPopup(popup_ca870cc43fe87d0a5e5e43b978d5b0f3)
+        ;
+
         
     
-            var marker_4b45d5014a2568f958f7138248ea6254 = L.marker(
+    
+            var marker_7450f2ae9ba8ca5d44a57af68b483470 = L.marker(
                 [1.212, 103.7545],
                 {}
-            ).addTo(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            ).addTo(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var icon_f16e193c9709fb02d86c808b99708dee = L.AwesomeMarkers.icon(
+            var icon_6a531197b4c016b5b652ead6c3b7bd40 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_4b45d5014a2568f958f7138248ea6254.setIcon(icon_f16e193c9709fb02d86c808b99708dee);
+            marker_7450f2ae9ba8ca5d44a57af68b483470.setIcon(icon_6a531197b4c016b5b652ead6c3b7bd40);
         
     
-            marker_4b45d5014a2568f958f7138248ea6254.bindTooltip(
-                `<div>
-                     Pulau Semakau (Singapur)<br>Volumen: ~2.000 t/Tag
-Status: Optimierung läuft
-Besitz: NEA
-                 </div>`,
-                {"permanent": true, "sticky": true}
-            );
+        var popup_f9d2e73e191a12d7cd6889e0b6c48237 = L.popup({"maxWidth": 300});
+
+        
+            var html_656d7403e68daa79494c5fc2f3a78c57 = $(`<div id="html_656d7403e68daa79494c5fc2f3a78c57" style="width: 100.0%; height: 100.0%;"><b>Pulau Semakau (Singapur)</b><br>Volumen: ~2.000 t/Tag Status: Optimierung läuft Besitz: NEA</div>`)[0];
+            popup_f9d2e73e191a12d7cd6889e0b6c48237.setContent(html_656d7403e68daa79494c5fc2f3a78c57);
+        
+
+        marker_7450f2ae9ba8ca5d44a57af68b483470.bindPopup(popup_f9d2e73e191a12d7cd6889e0b6c48237)
+        ;
+
         
     
-            var marker_e6481ba27081747ec1367dc175b083ae = L.marker(
+    
+            var marker_b18efe4766a0586d2799cdf64cc8c695 = L.marker(
                 [-22.7101, -43.3689],
                 {}
-            ).addTo(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            ).addTo(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var icon_334dccdfb914459fee82fe0f91de5698 = L.AwesomeMarkers.icon(
+            var icon_39b9f53288c56a6b2bf265fc87992c56 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_e6481ba27081747ec1367dc175b083ae.setIcon(icon_334dccdfb914459fee82fe0f91de5698);
+            marker_b18efe4766a0586d2799cdf64cc8c695.setIcon(icon_39b9f53288c56a6b2bf265fc87992c56);
         
     
-            marker_e6481ba27081747ec1367dc175b083ae.bindTooltip(
-                `<div>
-                     Jardim Gramacho (Brasilien)<br>Volumen: ~9.000 t/Tag
-Status: geschlossen, Sanierung
-Besitz: lokal
-                 </div>`,
-                {"permanent": true, "sticky": true}
-            );
+        var popup_7bb4a71848042696c6e63deb5be49a9e = L.popup({"maxWidth": 300});
+
+        
+            var html_0851e3a9f4c72bc2eab8516dc719539b = $(`<div id="html_0851e3a9f4c72bc2eab8516dc719539b" style="width: 100.0%; height: 100.0%;"><b>Jardim Gramacho (Brasilien)</b><br>Volumen: ~9.000 t/Tag Status: geschlossen, Sanierung Besitz: lokal</div>`)[0];
+            popup_7bb4a71848042696c6e63deb5be49a9e.setContent(html_0851e3a9f4c72bc2eab8516dc719539b);
+        
+
+        marker_b18efe4766a0586d2799cdf64cc8c695.bindPopup(popup_7bb4a71848042696c6e63deb5be49a9e)
+        ;
+
         
     
-            var marker_18c1b8b4153c31da9630549a7f548f17 = L.marker(
+    
+            var marker_92c3bdbadc98f7548e34ffc70336b7b7 = L.marker(
                 [19.4969, -99.0968],
                 {}
-            ).addTo(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            ).addTo(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var icon_bae29344535caac7460fb765b138f9b3 = L.AwesomeMarkers.icon(
+            var icon_4d4b1bc01dbd28d7d87279037a0f9ef2 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_18c1b8b4153c31da9630549a7f548f17.setIcon(icon_bae29344535caac7460fb765b138f9b3);
+            marker_92c3bdbadc98f7548e34ffc70336b7b7.setIcon(icon_4d4b1bc01dbd28d7d87279037a0f9ef2);
         
     
-            marker_18c1b8b4153c31da9630549a7f548f17.bindTooltip(
-                `<div>
-                     Bordo Poniente (Mexiko)<br>Volumen: ~12.000 t/Tag
-Status: geschlossen, Sanierung
-Besitz: lokal
-                 </div>`,
-                {"permanent": true, "sticky": true}
-            );
+        var popup_ae9c53305e0852355da56102a3b61477 = L.popup({"maxWidth": 300});
+
+        
+            var html_0468812b32d8c231dae238c4b020147e = $(`<div id="html_0468812b32d8c231dae238c4b020147e" style="width: 100.0%; height: 100.0%;"><b>Bordo Poniente (Mexiko)</b><br>Volumen: ~12.000 t/Tag Status: geschlossen, Sanierung Besitz: lokal</div>`)[0];
+            popup_ae9c53305e0852355da56102a3b61477.setContent(html_0468812b32d8c231dae238c4b020147e);
+        
+
+        marker_92c3bdbadc98f7548e34ffc70336b7b7.bindPopup(popup_ae9c53305e0852355da56102a3b61477)
+        ;
+
         
     
-            var marker_08797555c722bc4c5f30afa6644fc283 = L.marker(
+    
+            var marker_b24db1d84aeaaeac96db915ec10b4ce2 = L.marker(
                 [37.4833, 126.6333],
                 {}
-            ).addTo(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            ).addTo(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var icon_04224f701cefdcba92e0c8fec0246cab = L.AwesomeMarkers.icon(
+            var icon_1bf4cec7c2ed49ef2452d9ef406cc118 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_08797555c722bc4c5f30afa6644fc283.setIcon(icon_04224f701cefdcba92e0c8fec0246cab);
+            marker_b24db1d84aeaaeac96db915ec10b4ce2.setIcon(icon_1bf4cec7c2ed49ef2452d9ef406cc118);
         
     
-            marker_08797555c722bc4c5f30afa6644fc283.bindTooltip(
-                `<div>
-                     Sudokwon (Südkorea)<br>Volumen: ~18.000 t/Tag
-Status: Optimierung läuft
-Besitz: Stadt Incheon
-                 </div>`,
-                {"permanent": true, "sticky": true}
-            );
+        var popup_2545f180e19b6cb647eaed4376893215 = L.popup({"maxWidth": 300});
+
+        
+            var html_cb1d215f65b5270f7d709be636c3ff79 = $(`<div id="html_cb1d215f65b5270f7d709be636c3ff79" style="width: 100.0%; height: 100.0%;"><b>Sudokwon (Südkorea)</b><br>Volumen: ~18.000 t/Tag Status: Optimierung läuft Besitz: Stadt Incheon</div>`)[0];
+            popup_2545f180e19b6cb647eaed4376893215.setContent(html_cb1d215f65b5270f7d709be636c3ff79);
+        
+
+        marker_b24db1d84aeaaeac96db915ec10b4ce2.bindPopup(popup_2545f180e19b6cb647eaed4376893215)
+        ;
+
         
     
-            var marker_cf5a49fa7b97cb836bc343df5bf6bb85 = L.marker(
+    
+            var marker_a5799aa1c2a11d61246e3a0b8d870ebd = L.marker(
                 [14.7101, 121.1002],
                 {}
-            ).addTo(marker_cluster_07769073b12095a71ab0911c2ae54345);
+            ).addTo(marker_cluster_79d55958c4f9584cb673cb06a219d484);
         
     
-            var icon_77aa6d4d17900344c8ab35a9721180d8 = L.AwesomeMarkers.icon(
+            var icon_89c61a42a92b7cd0e85adf4068924c38 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_cf5a49fa7b97cb836bc343df5bf6bb85.setIcon(icon_77aa6d4d17900344c8ab35a9721180d8);
+            marker_a5799aa1c2a11d61246e3a0b8d870ebd.setIcon(icon_89c61a42a92b7cd0e85adf4068924c38);
         
     
-            marker_cf5a49fa7b97cb836bc343df5bf6bb85.bindTooltip(
-                `<div>
-                     Payatas (Philippinen)<br>Volumen: ~2.000 t/Tag
-Status: geschlossen, Sanierung
-Besitz: lokal
-                 </div>`,
-                {"permanent": true, "sticky": true}
-            );
+        var popup_4def9e0dc88130b3a9ae167a2d728964 = L.popup({"maxWidth": 300});
+
         
+            var html_9e5b5f9640165bee4f23c4770fb10536 = $(`<div id="html_9e5b5f9640165bee4f23c4770fb10536" style="width: 100.0%; height: 100.0%;"><b>Payatas (Philippinen)</b><br>Volumen: ~2.000 t/Tag Status: geschlossen, Sanierung Besitz: lokal</div>`)[0];
+            popup_4def9e0dc88130b3a9ae167a2d728964.setContent(html_9e5b5f9640165bee4f23c4770fb10536);
+        
+
+        marker_a5799aa1c2a11d61246e3a0b8d870ebd.bindPopup(popup_4def9e0dc88130b3a9ae167a2d728964)
+        ;
+
+        
+    
 </script>
 </html>
